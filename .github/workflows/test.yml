@@ -14,7 +14,7 @@ jobs:
     - uses: actions/setup-node@v1
     - run: echo hello lyj
     - run: npm -v
-    - run: java -v
+    - run: java -version
     - run: python -v
    
 
