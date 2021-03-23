@@ -1,5 +1,7 @@
 name: CI-LYJ2
 on:
+  check_suite:
+    types: [rerequested, completed]
   push:
     branches: [ mian ] 
 jobs:
