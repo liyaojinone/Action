@@ -1,4 +1,4 @@
-name: CI-LYJ
+name: CI
 on:
   push:
     branches:
