@@ -1,10 +1,7 @@
 name: CI-LYJ2
 on:
   push:
-    branches:
-    - master 
-    paths:
-    - src/*
+    branches: [ mian ] 
 jobs:
   job1:
     runs-on: ubuntu-latest
