@@ -2,8 +2,6 @@ name: CI-LYJ2
 on:
   check_suite:
     types: [rerequested, completed]
-  push:
-    branches: [ mian ] 
 jobs:
   job1:
     runs-on: ubuntu-latest
